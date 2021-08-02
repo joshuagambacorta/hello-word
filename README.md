@@ -32,7 +32,7 @@
         </div>
     </nav>
     <main>
-        <h2> Ciao Eccoti finalmente nel tuo culo:</h2>
+        <h2> Ciao Eccoti finalmente nel tuo primo sito<h2>
 
         <p> Qui metterò una tabella, seguita da un immagine, un iframe e da un piccolo testo.</p>
         Metterò un form per poi riprendere i dati in php. <hr>

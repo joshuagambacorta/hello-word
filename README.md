@@ -14,3 +14,4 @@ aggiungo piu cose
 da risalvare la con push.
 
 qui salvo con commit ma non faccio comparire di la.
+ora risalvo con commit e mando tutto con push.

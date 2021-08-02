@@ -1,23 +1,147 @@
-ciao sono io e dopo che ho fatto un push con niente e di conseguenza eliminato tutto provo a risalvare con altre cose.
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Primo sito html completo di php e css">
+    <meta name="author" content="Joshua Gambacorta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-da sistemare la.
-ho sistemato e ora voglio aggiungere questa riga e riportarla su github.
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="">
 
-bene questo lo rimando su github.
+    <title>Home</title>
+</head>
+<body>
+    <head> 
+        <h1>Ciao io sono il titolo</h1> 
+    </head>
+    <nav>
+        <ul> 
+            <li>
+                <a href="Sabrina/sabrina.html"> Sabrina </a>
+            </li>
+            <li>
+                <a href="chisono.html"> Chi sono </a>
+            </li>
+            <li>
+                <a href="contatti.html"> Contatti </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <main>
+        <h2> Ciao Eccoti finalmente nel tuo culo:</h2>
 
-voglio questo su vsc.
+        <p> Qui metterò una tabella, seguita da un immagine, un iframe e da un piccolo testo.</p>
+        Metterò un form per poi riprendere i dati in php. <hr>
 
+        <table border="5">
+            <caption> Ciao sono il titolo della tabella</caption> 
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        Ciao
+                    </td>
+                    <td rowspan="2">
+                        Come
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Ciao
+                    </td>
+                    <td>
+                        Come
+                    </td>
+                    <td>
+                        Stai
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        Ciao
+                    </td>
+                    <td>
+                        Come
+                    </td>
+                    <td>
+                        Stai
+                    </td>
+                </tr>
+            </tfoot>
+        </table> <hr>
+        
+        <img src="151085.jpg" alt="Ciao solo se non vado" width="600px" height="300px"> 
+        
+        <iframe width="956" height="538" src="https://www.youtube.com/embed/1rRuhEgnfoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <p> <abbr title="Ciao io compaio con abbr"> Qui provo <strong> grassetto </strong> e poi <em> corsivo </abbr></em><br>
+        Io invece sono scritto <sup> sopra </sup> e io sono scritto <sub> sotto </sub></p>
 
+        <pre>
+            <code> cosi posso incollare il codice e tenere tutto quanto come deve stare </code>
+           <samp> cosi invece posso tenere dei ping come sono </samp> 
+        </pre>
 
-ciao qui posso provare tutto 
+        Eccoti a seguire una lista descrittiva:
+        <dl>
+            <dt> Titolo 1 </dt>
+            <dd> Ciao io sono l'elemento 1</dd>
+            <dt> Titolo 2 </dt>
+            <dd> Ciao io sono l'elemento 2</dd>
+            <dt> Titolo 3 </dt>
+            <dd> Ciao io sono l'elemento 3</dd>
+        </dl> <hr>
 
+        okay qui di seguito metto il form: <br><br>
 
-
-qui so che torna
-
-
-questa parte non voglio che si veda
-
-
-okay ora sono nuovamente sicuro posso rimandare la 
+        <fieldset>
+            <legend>Dati anagrafici</legend>
+            <form action="" method="POST">
+                <label for="nome"> Inserisci il tuo nome: </label>
+                <input type="text" name="nomee"> <br>
+                <label for="cognome"> Inserisci il tuo cognome: </label>
+                <input type="text" name="cognomee"> <br>
+                <label for="codiceFiscale"> Inserisci il tuo codice fiscale: </label>
+                <input type="text" name="codiceFiscalee"> <br>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Preferenze</legend>
+            <form action="" method="POST">
+                <label for="sport"> Seleziona lo sport che preferisci: </label>
+                <select>
+                    <option value="">Seleziona</option>
+                    <option value="Calcioo">Calcio</option>
+                    <option value="Tenniss">Tennis</option>
+                    <option value="Baskett">Basket</option> <br>
+                </select> <br>
+                <label for="DimmiDiTe">Raccontami di te</label> <br>
+                <textarea> </textarea> <br>
+                <input type="submit" value="invia">
+            </form>
+        </fieldset>
+    </main>
+    <aside>
+        
+    </aside>
+    <footer>
+       <h3> sono arrivato all'h3 per vedere la differenza, <br> da sistemare come footer</h3> 
+       <div>
+        <a href="https://www.facebook.com/" title="facebook"> FACEBOOK </a> <br>
+        <a href="https://www.instagram.com/" title="instagram"> INSTAGRAM </a> <br>
+        <a href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fit-IT&lang=en&enter_method=mandatory" title="tik tok"> TIK TOK </a>
+    </div>
+       <figure>
+          <img src="mappaesame.PNG" alt="Mi vedi solo se non va la foto" width="500" height="280">
+          <figcaption> Io sono una piccola citazione sotto </figcaption>
+       </figure>
+    </footer>
+</body>
+</html>

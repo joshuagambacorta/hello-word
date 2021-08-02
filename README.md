@@ -11,4 +11,4 @@ provo a creare un conflitto
 
 aggiungo piu cose
 
-da risalvare la
+da risalvare la con push.

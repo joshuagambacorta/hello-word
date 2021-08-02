@@ -7,4 +7,4 @@ modifica
 
 scritto 
 
-provo a creare un conflitto 
+provo a creare un conflitto .
